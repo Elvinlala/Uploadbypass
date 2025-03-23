@@ -27,4 +27,4 @@ To use the Upload Bypass tool, follow the instructions in the [Installation](#in
 Once you've set up the project, you can run the tool with the following command:
 
 ```bash
-python3 Uploadbypass -r res.txt
+python3 Uploadbypass.py -r res.txt --extensions "payload/file_extensions.txt" --content-type "payload/content_type.txt" --user-agent "payload/user_agent.txt" --custom-header "X-Forwarded-For: 127.0.0.1" --time 5
