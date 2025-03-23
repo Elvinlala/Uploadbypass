@@ -115,7 +115,7 @@ def main():
         formatter_class=argparse.RawTextHelpFormatter
     )
     
-    parser.add_argument("-r", "--raw", required=True, help="Specify the HTTP request file captured by Burp Suite/Wireshark")
+    parser.add_argument("-r", "--raw", required=True, help="Specify the HTTP request file captured by Burp Suite/Wireshark with * marking the fields that need testing")
     parser.add_argument("--content-type", help="Specify spoofed Content-Type file")
     parser.add_argument("--user-agent", help="Specify spoofed User-Agent file")
     parser.add_argument("--extensions", required=True, help="File containing test file extensions")
