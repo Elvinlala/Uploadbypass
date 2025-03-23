@@ -4,6 +4,8 @@
 
 Upload Bypass is a powerful tool designed to exploit file upload vulnerabilities. It provides  techniques to bypass file upload restrictions, automate common bypass methods, and support custom headers and user-agent manipulations.
 
+![Upload Bypass Tool](https://github.com/Elvinlala/Uploadbypass/blob/main/Screenshot%202025-03-23%20165440.png)
+
 ## Features
 
 - **Simple Bypass Functionality**  
